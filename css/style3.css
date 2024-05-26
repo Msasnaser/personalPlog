@@ -1,0 +1,27 @@
+.navbar {
+    background: black !important;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 110px;
+  }
+.navbar .nav-brand {
+    font-size: 33px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap:50px;
+}
+
+.navbar .nav-links li {
+    margin-left: 1rem;
+}
